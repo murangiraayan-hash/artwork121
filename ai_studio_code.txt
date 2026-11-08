@@ -1,0 +1,31 @@
+├── vercel.json                 <-- Pre-configured Vercel routing rules
+├── package.json                <-- Project dependencies & scripts (Vite, React 19, Tailwind)
+├── vite.config.ts              <-- Vite build setup
+├── tsconfig.json               <-- TypeScript setup
+├── index.html                  <-- School HTML entry point
+├── README.md                   <-- Deployment guide
+├── .gitignore                  <-- Git ignore rules
+│
+├── src/                        <-- Full React application source code
+│   ├── App.tsx                 <-- Main application layout & state
+│   ├── main.tsx                <-- App mount entry
+│   ├── index.css               <-- Tailwind CSS v4 styling & color palette
+│   ├── components/
+│   │   ├── Navbar.tsx          <-- Bilingual header & trade navigation
+│   │   ├── Hero.tsx            <-- Video banner & campus intro
+│   │   ├── ProgramsSection.tsx <-- 5 Technical Trades curriculum
+│   │   ├── FeesAndPayment.tsx  <-- Rwanda MoMo & Bank payment guide
+│   │   ├── RegistrationSection.tsx <-- Admissions form & printable slips
+│   │   ├── AdminPortal.tsx     <-- Admin registry & CSV export
+│   │   ├── DownloadModal.tsx   <-- In-app download & hosting guide
+│   │   ├── PhpBackendCenter.tsx<-- PHP source explorer
+│   │   ├── ContactSection.tsx  <-- Map & school contact info
+│   │   └── Footer.tsx          <-- School footer & credentials
+│   ├── data/                   <-- Translations, trade data, fee schedule
+│   ├── services/               <-- Storage & export services
+│   └── types/                  <-- TypeScript interfaces
+│
+└── public/
+    ├── images/                 <-- School crest logo (saint-michael.jpg)
+    ├── videos/                 <-- Campus & lab background video loops
+    └── backend/                <-- PHP 8 scripts & MySQL database schema
